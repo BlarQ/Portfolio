@@ -1,7 +1,7 @@
 /* SCROLLBAR HIDE/VIEW */
 ::-webkit-scrollbar{
     background: #6da9f7;
-    width: 3px;
+    width: 5px;
 }
 
 ::-webkit-scrollbar-thumb{
@@ -343,4 +343,42 @@ nav button span{
     font-size: 20px;
     color: #efefef;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.work{
+    background: #1d2026;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 1;
+    padding-left: 22.5%;
+    padding-right: 15%;
+}
+
+.work div{
+    margin-right: 30px;
+    margin-left: 30px;
+    padding: 20px;
+    color: #efefef;
+    border-radius: 20px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+.work div h1{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.work div img{
+    width: 150px;
+}
+
+.work div h3{
+    text-align: center;
 }
