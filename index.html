@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>BlarQ</title>
 
     <link rel="stylesheet" href="style.css">
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
@@ -14,7 +14,17 @@
         <nav>
             <h1>Blar<span>Q</span></h1>
 
+            <ion-icon onclick="showSidebar()" name="menu"></ion-icon>
+
             <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#experience1">Experience</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+
+            <ul class="sidebar">
+                <li><ion-icon onclick="closeSidebar()" name="close"></ion-icon></li>
                 <li><a href="#">Home</a></li>
                 <li><a href="#About">About</a></li>
                 <li><a href="#experience1">Experience</a></li>
@@ -170,21 +180,21 @@ Thank you for taking the time to learn more about me. I can't wait to embark on 
         </div>
         <div class="work-card">
             <h1>Clock App</h1>
-            <a href="#"><img src="wip.gif" alt=""></a>
+            <a href=""><img src="wip.gif" alt=""></a>
             <h3>Coming Soon!</h3>
         </div>
         <div class="work-card">
             <h1>Calender</h1>
-            <a href="#"><img src="wip.gif" alt=""></a>
+            <a href=""><img src="wip.gif" alt=""></a>
             <h3>Coming Soon!</h3>
         </div>
         <div class="work-card">
             <h1>More...</h1>
-            <a href="#"><img src="work-loading1.gif" alt=""></a>
+            <a href=""><img src="work-loading1.gif" alt=""></a>
         </div>
     </div>
 
-    <!-- Vanilla Script Experience -->
+    <!-- Vanilla Script for Experience -->
     <script type="text/javascript" src="vanilla-tilt.js"></script>
     <script type="text/javascript">
         VanillaTilt.init(document.querySelectorAll(".exp-card"), {
@@ -194,7 +204,7 @@ Thank you for taking the time to learn more about me. I can't wait to embark on 
     </script>
     <!-- Vanilla Script End -->
 
-    <!-- Vanilla Works Begin -->
+    <!-- Vanilla for Works Begin -->
     <script type="text/javascript" src="vanilla-tilt.js"></script>
     <script type="text/javascript">
         VanillaTilt.init(document.querySelectorAll(".work-card"), {
@@ -217,5 +227,7 @@ Thank you for taking the time to learn more about me. I can't wait to embark on 
     })();
 </script>
 <!--End of Tawk.to Script-->
+
+<script src="Script.js"></script>
 </body>
 </html>
